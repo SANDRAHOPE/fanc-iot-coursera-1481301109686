@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: fanc-iot-coursera
+  host: fanc-iot-coursera
+  disk_quota: 1024M
+  services:
+  - fanc-iot-coursera-cloudantNoSQLDB
+  - fanc-iot-coursera-iotf-service
